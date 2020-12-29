@@ -1,7 +1,6 @@
 import requests
 
 API = '1dfd75256515118b98659e8282a0371e'
-# URL = f'http://api.openweathermap.org/data/2.5/weather?id={id}&lang=ru&units=metric&appid={API}'
 URL = f'https://api.openweathermap.org/data/2.5/onecall?lat=55.761665&lon=-37.606667&units=metric&exclude=hourly&appid={API}'
 
 
